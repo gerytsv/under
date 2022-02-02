@@ -1,0 +1,54 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "lint": "ng lint"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.2.0",
+    "@angular/cdk": "~13.2.0",
+    "@angular/common": "~13.2.0",
+    "@angular/core": "~13.2.0",
+    "@angular/forms": "~13.2.0",
+    "@angular/material": "^13.2.0",
+    "@angular/platform-browser": "~13.2.0",
+    "@angular/platform-browser-dynamic": "~13.2.0",
+    "@angular/router": "~13.2.0",
+    "@auth0/angular-jwt": "^3.0.1",
+    "@types/moment": "^2.13.0",
+    "@types/sweetalert": "^2.0.4",
+    "animate.css": "^3.7.2",
+    "class-validator": "^0.13.2",
+    "majestic": "^1.2.12",
+    "moment": "^2.24.0",
+    "ngx-infinite-scroll": "^8.0.1",
+    "ngx-spinner": "^13.0.0",
+    "ngx-toastr": "^14.2.1",
+    "rxjs": "^7.5.2",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^8.18.6",
+    "tslib": "^1.10.0",
+    "web-animations-js": "^2.3.2",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^13.1.4",
+    "@angular/cli": "^13.1.4",
+    "@angular/compiler-cli": "^13.2.0",
+    "@angular/language-service": "~13.2.0",
+    "@types/node": "~8.9.4",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "~4.5.5"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }
+}
