@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit, OnDestroy {
-  title = 'Huggo';
+  title = 'Under';
 
   private loggedInSubscription: Subscription;
   public loggedIn = false;

@@ -54,7 +54,7 @@ export class RegisterComponent implements OnInit {
       () => {
         Swal.fire({
           title: 'Register successful!',
-          text: 'Welcome to Huggo!',
+          text: 'Welcome to Under!',
           type: 'success',
           showConfirmButton: false,
           timer: 1500,
