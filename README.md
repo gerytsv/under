@@ -73,3 +73,5 @@ If you want to seed only an administrator, you can do so by running the followin
          npm run seed
          
 This will create an administrator account with username `Administrator` and password `password`.
+
+Note that in order to seed the excisting data, you need to start fresh by first dropping the current `underdb` schema, creating it anew and then running the query or seeding only the administrator data.
