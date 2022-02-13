@@ -68,6 +68,8 @@ The port is http://localhost:4200/
 
 To seed the data, you can copy the content of the file `seed-under-db.sql` located at the root of the project and run it as sql query inside the MySQL Workbench in the `underdb` schema.<br>
 
+In order to login you can use the administrator account with username `TheBoss` and password `password`.
+
 If you want to seed only an administrator, you can do so by running the following script in the backend folder: 
          
          npm run seed
